@@ -1,8 +1,6 @@
-import axios, { Axios, AxiosInstance, CancelTokenSource } from "axios";
+import axios, { AxiosInstance, CancelTokenSource } from "axios";
 
 
-// 创建一个 CancelToken.source 对象
-const cancelSource = axios.CancelToken.source();
 
 /**
  * @description:  请求拦截器
